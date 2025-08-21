@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-08-21T15:45:43.000Z",
+      "message": "feat: funcion de hola agregado",
+      "url": "https://github.com/RashLop/ChatBot/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 3,
+      "deletions": 2,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
