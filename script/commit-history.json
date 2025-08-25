@@ -76,17 +76,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "60a0ceefa5acce193c295807cba6816cd00acfe9",
     "author": "RashLop",
     "commit": {
       "date": "2025-08-25T18:45:24.000Z",
       "message": "feat: Saludar por la edad añadido",
-      "url": "https://github.com/RashLop/ChatBot/commit/HEAD"
+      "url": "https://github.com/RashLop/ChatBot/commit/60a0ceefa5acce193c295807cba6816cd00acfe9"
     },
     "stats": {
       "total": 77,
       "additions": 52,
       "deletions": 25,
+      "date": "2025-08-25"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-08-25T18:53:27.000Z",
+      "message": "feat: Saludar en ingles añadido",
+      "url": "https://github.com/RashLop/ChatBot/commit/HEAD"
+    },
+    "stats": {
+      "total": 70,
+      "additions": 50,
+      "deletions": 20,
       "date": "2025-08-25"
     },
     "coverage": 100,
