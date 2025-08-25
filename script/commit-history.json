@@ -57,17 +57,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "04611a421b4678e5fb3d5baa0830c7e451e1d594",
     "author": "RashLop",
     "commit": {
       "date": "2025-08-25T18:37:11.000Z",
       "message": "feat: Saludar por genero añadido",
-      "url": "https://github.com/RashLop/ChatBot/commit/HEAD"
+      "url": "https://github.com/RashLop/ChatBot/commit/04611a421b4678e5fb3d5baa0830c7e451e1d594"
     },
     "stats": {
       "total": 45,
       "additions": 32,
       "deletions": 13,
+      "date": "2025-08-25"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-08-25T18:45:24.000Z",
+      "message": "feat: Saludar por la edad añadido",
+      "url": "https://github.com/RashLop/ChatBot/commit/HEAD"
+    },
+    "stats": {
+      "total": 77,
+      "additions": 52,
+      "deletions": 25,
       "date": "2025-08-25"
     },
     "coverage": 100,

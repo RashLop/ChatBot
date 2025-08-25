@@ -1,17 +1,35 @@
-export function getGreeting(nombre, genero, date = new Date()) {
-        const h = date.getHours(); // 0–23
-        let saludoHora = "";
+export function getGreetingByHour(date = new Date()) {
+    const h = date.getHours();
+        if (h >= 6 && h < 12) return "Buenos días";
+        if (h >= 12 && h < 19) return "Buenas tardes";
+        return "Buenas noches";
+}
 
-    if (h >= 6 && h < 12) saludoHora = "Buenos días";
-    else if (h >= 12 && h < 19) saludoHora = "Buenas tardes";
-    else saludoHora = "Buenas noches";
+export function getTrato(genero, edadNum) {
+        if (!Number.isFinite(edadNum) || edadNum < 0) return "";
 
-    let trato = "";
-    if (genero === "M" || genero === "m") {
-        trato = "Señor";
-    } else if (genero === "F" || genero === "f") {
-        trato = "Señorita";
-    } 
+    const g = (genero || "").toLowerCase();
+        if (g === "m") {
+        if (edadNum >= 30) return "señor";
+        if (edadNum >= 18) return "Estimado";
+            return "señorito";
+    } else if (g === "f") {
+        if (edadNum >= 30) return "señora";
+        if (edadNum >= 18) return "Estimada";
+            return "señorita";
+    }
+            return ""; 
+}
 
-    return `${saludoHora}, ${trato} "${nombre}"`;
+export function buildGreeting(nombre, genero, edad, date = new Date()) {
+    const saludoHora = getGreetingByHour(date);
+    const edadNum = Number(edad);
+    const trato = getTrato(genero, edadNum);
+
+
+        if (trato) {
+            return `${saludoHora}, ${trato} "${nombre}"`;
+        } else {
+            return `${saludoHora} "${nombre}"`;
+        }
 }
