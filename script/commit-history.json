@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "02a36ccc4a2c5317d8a389c8751c70bb1f8c6ade",
     "author": "RashLop",
     "commit": {
       "date": "2025-08-25T18:53:27.000Z",
       "message": "feat: Saludar en ingles añadido",
-      "url": "https://github.com/RashLop/ChatBot/commit/HEAD"
+      "url": "https://github.com/RashLop/ChatBot/commit/02a36ccc4a2c5317d8a389c8751c70bb1f8c6ade"
     },
     "stats": {
       "total": 70,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-08-25T19:26:30.000Z",
+      "message": "test: Test para el archivo de greeting.js añadido y verificado",
+      "url": "https://github.com/RashLop/ChatBot/commit/HEAD"
+    },
+    "stats": {
+      "total": 101,
+      "additions": 87,
+      "deletions": 14,
+      "date": "2025-08-25"
+    },
+    "coverage": 100,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }
