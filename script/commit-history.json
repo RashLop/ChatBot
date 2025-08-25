@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1245d938a8ef0e49d7cb512e0e05d543eea4e647",
     "author": "RashLop",
     "commit": {
       "date": "2025-08-25T18:24:57.000Z",
       "message": "feat: Saludar con la hora añadido",
-      "url": "https://github.com/RashLop/ChatBot/commit/HEAD"
+      "url": "https://github.com/RashLop/ChatBot/commit/1245d938a8ef0e49d7cb512e0e05d543eea4e647"
     },
     "stats": {
       "total": 13,
       "additions": 11,
       "deletions": 2,
+      "date": "2025-08-25"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-08-25T18:37:11.000Z",
+      "message": "feat: Saludar por genero añadido",
+      "url": "https://github.com/RashLop/ChatBot/commit/HEAD"
+    },
+    "stats": {
+      "total": 45,
+      "additions": 32,
+      "deletions": 13,
       "date": "2025-08-25"
     },
     "coverage": 100,
