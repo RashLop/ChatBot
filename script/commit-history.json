@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8279268dff55ece96b99c8fd7c4650a59a8dff16",
     "author": "RashLop",
     "commit": {
       "date": "2025-08-25T18:14:46.000Z",
       "message": "feat: Hola con nombre añadido",
-      "url": "https://github.com/RashLop/ChatBot/commit/HEAD"
+      "url": "https://github.com/RashLop/ChatBot/commit/8279268dff55ece96b99c8fd7c4650a59a8dff16"
     },
     "stats": {
       "total": 30,
       "additions": 12,
       "deletions": 18,
+      "date": "2025-08-25"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-08-25T18:24:57.000Z",
+      "message": "feat: Saludar con la hora añadido",
+      "url": "https://github.com/RashLop/ChatBot/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
       "date": "2025-08-25"
     },
     "coverage": 100,
