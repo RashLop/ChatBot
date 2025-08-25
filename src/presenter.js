@@ -1,15 +1,14 @@
-import sumar from "./sumador";
-
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
+const first = document.querySelector("#nombre");
+const formSaludoNom = document.querySelector("#saludar-form");
 const div = document.querySelector("#resultado-div");
 
-form.addEventListener("submit", (event) => {
+formSaludoNom.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
-
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  const nombre = first.value.trim();
+  if (nombre) {
+    div.textContent = `Hola "${nombre}"`;
+  } else {
+    div.textContent = "Por favor ingresa tu nombre";
+  }
 });
